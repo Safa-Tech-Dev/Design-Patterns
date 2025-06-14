@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/com/coffeepoweredcrew/notificationcreator" isTestSource="false" packagePrefix="com.coffeepoweredcrew.factorymethod" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
+<module version="4">
   <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="416f56fb-1628-4f07-8a96-be3c4609f3bc" />
+    <option name="uniqueId" value="c9a43b91-6cf6-4f60-b0a9-9168078b4c4b" />
   </component>
 </module>

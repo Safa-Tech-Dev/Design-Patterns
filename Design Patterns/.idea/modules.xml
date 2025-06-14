@@ -16,7 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Builder/builder_inner/builder_inner2.iml" filepath="$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Builder/builder_inner/builder_inner2.iml" />
       <module fileurl="file://$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Factory/factory-code/src/factory-code.iml" filepath="$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Factory/factory-code/src/factory-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Factory/factory-code/factory-code2.iml" filepath="$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Factory/factory-code/factory-code2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/simple-factory/simple-factory.iml" filepath="$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/simple-factory/simple-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Simple-factory/simple-factory.iml" filepath="$PROJECT_DIR$/CREATIONAL-DESIGN-PATTERNS/Simple-factory/simple-factory.iml" />
     </modules>
   </component>
 </project>
