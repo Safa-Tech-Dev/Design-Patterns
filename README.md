@@ -6,10 +6,10 @@
 * Abstractions should not depend on details.
 * Details should depend on abstractions.
 
-- In simple terms
+- In simple terms: 
 If high-level logic directly depends on low-level implementations, changes in the low-level code can break the high-level logic.
 
-- In more simple terms
+- In more simple terms:
 Class should depend on interface rather than concrete class.
 ![Dependency Inversion Principle](Design_Patterns/src/main/resources/images/DIP.png)
 
