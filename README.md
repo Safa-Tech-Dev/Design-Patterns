@@ -1,5 +1,9 @@
 # SOLID PRINCIPLES
-
+## (S) -> Single Responsibility Principle
+* A Class should have only one reason to change.
+* Focused **single Responsibility** addresses a specific concern.
+* If you can’t describe what a class does in one clear sentence without using "and", it’s probably doing too much.
+![Single Responsibility Principle](Design_Patterns/src/main/resources/images/srp.png)
 ## (D) -> Dependency Inversion Principle
 * High-level modules should not depend on low-level modules.
 * Both should depend on abstractions.
