@@ -7,7 +7,7 @@
 
 ## (O) -> Open Closed Principle
 * A class, module, or function should be open for extension but closed for modification.
-* Open for extension → You should be able to add new functionality.
+* **Open** for extension → You should be able to add new functionality.
 * Closed for modification → You should NOT change the existing code whenever a new requirement comes.
 ![Single Responsibility Principle](Design_Patterns/src/main/resources/images/OCP.png)
   
