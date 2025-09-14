@@ -9,8 +9,15 @@
 * A class, module, or function should be open for extension but closed for modification.
 * **Open** for extension → You should be able to add new functionality.
 * Closed for modification → You should NOT change the existing code whenever a new requirement comes.
-![Single Responsibility Principle](Design_Patterns/src/main/resources/images/OCP.png)
-  
+![Open Closed Principle](Design_Patterns/src/main/resources/images/OCP.png)
+
+## (L) -> Liskov Substitution Principle
+* Objects of a superclass should be replaceable with objects of its subclasses without breaking the application.
+* Subclass should extend the capability of the parent class but not narrow it down.
+* ✅ Example: Bird bird = new Sparrow(); → works fine, since Sparrow behaves like a Bird.
+* ❌ Violation: Bird bird = new Penguin(); → breaks, since Penguin can’t fly but the parent expects fly().
+![Liskov Substitution Principle](Design_Patterns/src/main/resources/images/LSP.png)
+
 ## (D) -> Dependency Inversion Principle
 * High-level modules should not depend on low-level modules.
 * Both should depend on abstractions.
