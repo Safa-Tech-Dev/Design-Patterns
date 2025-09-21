@@ -18,6 +18,13 @@
 * ❌ Violation: Bird bird = new Penguin(); → breaks, since Penguin can’t fly but the parent expects fly().
 ![Liskov Substitution Principle](Design_Patterns/src/main/resources/images/LSP.png)
 
+## (I) -> Interface Segregation Principle
+* Interface should be such that the client should not implement unneccessary functions they do not need.
+* Don’t force someone to depend on methods they don’t use.
+* Keep interfaces small and focused, so classes only worry about what they actually do. 
+
+![Interface Segregation Principle](Design_Patterns/src/main/resources/images/ISP.png)
+
 ## (D) -> Dependency Inversion Principle
 * High-level modules should not depend on low-level modules.
 * Both should depend on abstractions.
