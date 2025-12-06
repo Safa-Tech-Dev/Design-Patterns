@@ -40,6 +40,17 @@ Class should depend on interface rather than concrete class.
 
 
 # Design-Patterns
+## Creational Design Patterns
+### 1. Factory Pattern
+* Simple Factory : 
+  A design pattern that delegates object creation to a single factory class, keeping your code clean and reducing coupling.
+* Centralizes object creation
+* Reduces repetitive new calls
+* Keeps client code clean
+* Perfect when you often switch between related object types
+
+  ![Simple Factory](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/simple-factory.png)
+
 
 
 
