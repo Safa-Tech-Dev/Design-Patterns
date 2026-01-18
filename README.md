@@ -51,6 +51,16 @@ Class should depend on interface rather than concrete class.
 
   ![Simple Factory](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/simple-factory.png)
 
+  ### 2. Factory Pattern
+* Factory Method: 
+  Defines an interface for creating an object.
+* Lets subclasses decide which class to instantiate
+* Decouples object creation from usage
+* Keeps client code clean
+* You order something, but you don’t know exactly which concrete object will be created.
+
+  ![Factory Method](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/Factory-Method.jpg)
+
 
 
 
