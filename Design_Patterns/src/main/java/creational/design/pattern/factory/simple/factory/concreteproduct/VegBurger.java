@@ -1,4 +1,4 @@
-package creational.design.pattern.factory.simple.factory.implementation;
+package creational.design.pattern.factory.simple.factory.concreteproduct;
 
 import creational.design.pattern.factory.simple.factory.product.Burger;
 

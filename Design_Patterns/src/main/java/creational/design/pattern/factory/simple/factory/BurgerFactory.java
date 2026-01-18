@@ -1,8 +1,8 @@
 package creational.design.pattern.factory.simple.factory;
 
-import creational.design.pattern.factory.simple.factory.implementation.ChickenBurger;
-import creational.design.pattern.factory.simple.factory.implementation.FishBurger;
-import creational.design.pattern.factory.simple.factory.implementation.VegBurger;
+import creational.design.pattern.factory.simple.factory.concreteproduct.ChickenBurger;
+import creational.design.pattern.factory.simple.factory.concreteproduct.FishBurger;
+import creational.design.pattern.factory.simple.factory.concreteproduct.VegBurger;
 import creational.design.pattern.factory.simple.factory.product.Burger;
 
 public class BurgerFactory {
