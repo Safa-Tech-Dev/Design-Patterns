@@ -61,6 +61,14 @@ Class should depend on interface rather than concrete class.
 
   ![Factory Method](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/Factory-Method.jpg)
 
+   ### 2. Factory Pattern
+* Abstract Factory is a creational design pattern
+* It provides an interface to create families of related objects
+* The client does not know or care about concrete implementations
+* Object creation logic is fully encapsulated
+
+  ![Abstract Factory](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/Abstract-Factory.jpg)
+
 
 
 
