@@ -9,6 +9,7 @@ public class HttpRequestDirector {
         return new HttpRequest.HttpRequestBuilder()
                 .withUrl(url)
                 .withMethod("GET")
+                .withBody("{ \"name\": \"Saddam\" }")
                 .build();
     }
     public static HttpRequest createJsonPostRequest(String url, String jsonBody){
