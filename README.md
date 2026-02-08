@@ -92,7 +92,20 @@ Class should depend on interface rather than concrete class.
          ✅ Immutable objects
          ✅ Better control over object creation
          ✅ Same construction logic → different outputs
-
+  ### 1️⃣ Simple Builder (Fluent Builder)
+          A Simple Builder (also called Fluent Builder) is a creational pattern
+          where a single builder class constructs an object step by step using method
+          chaining, and the client directly calls build() to create the final object.
+     #### Key Characteristics
+          * Usually implemented as a static inner class
+          * Uses fluent API (method chaining)
+          * No Director class
+          * All construction logic is inside the Builder
+     #### When to Use
+          * Object has many optional parameters
+          * You want readable object creation
+          * You want immutable objects
+![Simple-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Simple-Builder.jpg)
 
 
 
