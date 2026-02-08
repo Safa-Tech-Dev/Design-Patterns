@@ -61,13 +61,37 @@ Class should depend on interface rather than concrete class.
 
   ![Factory Method](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/Factory-Method.jpg)
 
-   ### 2. Factory Pattern
+   ### 3. Factory Pattern
 * Abstract Factory is a creational design pattern
 * It provides an interface to create families of related objects
 * The client does not know or care about concrete implementations
 * Object creation logic is fully encapsulated
 
   ![Abstract Factory](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/Abstract-Factory.jpg)
+
+  ### 1. Builder Pattern
+      * Standard Definiation:
+        Separate the construction of a complex object from its representation, so that the same construction process can create different representations.
+    #### Problem without Builder Pattern
+    ##### 1. Constructor Explosion(telescoping constructors problem)
+         * Every new optional param requires a new constructor overload.
+         * Calls become uncreachable as you pass empty/dummy values for skipped field.
+    ##### 2. Inconsistent Object states
+         * partially build objects may be used before all required data is set.
+    ##### 3. Mutable Objects
+         * Exposing setters means client can change the object any time.
+    ##### 4. Difficulties in validations
+    ##### Why do we need the Builder Pattern?
+         Problems it solves:
+         ❌ Constructors with too many parameters
+         ❌ Confusing parameter order
+         ❌ Poor readability
+         ❌ Hard to extend when new fields are added
+         Benefits:
+         ✅ Readable and fluent object creation
+         ✅ Immutable objects
+         ✅ Better control over object creation
+         ✅ Same construction logic → different outputs
 
 
 
