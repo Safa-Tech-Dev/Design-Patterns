@@ -107,5 +107,21 @@ Class should depend on interface rather than concrete class.
           * You want immutable objects
 ![Simple-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Simple-Builder.jpg)
 
+  ### 2️⃣ Director Builder (Classic GoF Builder)
+          A Director Builder is the classic implementation described by the Gang of Four,
+          where a separate Director class controls the construction process, and different 
+          Concrete Builders create different representations of the product using the same building steps.
+   #### Key Characteristics
+        * Separate Builder interface
+        * Multiple Concrete Builders
+        * A Director orchestrates build steps
+        * Same construction process → different outputs
+   ### When to Use
+        * Construction process must be reusable
+        * Different representations of the same object are needed
+        * Complex creation workflows
+![Director-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Director-Builder.jpg)
+        
+
 
 
