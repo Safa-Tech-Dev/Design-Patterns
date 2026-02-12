@@ -133,7 +133,6 @@ Class should depend on interface rather than concrete class.
        -> Strict creation workflow required
        -> Certain fields are mandatory
        -> You want compile-time safety
-        
-
+![Step-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Step-Builder.jpg)
 
 
