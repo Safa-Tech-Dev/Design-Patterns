@@ -116,11 +116,23 @@ Class should depend on interface rather than concrete class.
         * Multiple Concrete Builders
         * A Director orchestrates build steps
         * Same construction process → different outputs
-   ### When to Use
+   #### When to Use
         * Construction process must be reusable
         * Different representations of the same object are needed
         * Complex creation workflows
 ![Director-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Director-Builder.jpg)
+
+ ### 3️⃣ Step Builder
+         A Step Builder is a variation of the Builder pattern that enforces the order of method calls at compile time using multiple interfaces, ensuring that              mandatory fields are set before the object can be built.
+  #### Uses multiple step interfaces
+       -> Enforces mandatory fields
+       -> Provides compile-time safety
+       -> Allows optional fields at the end
+       -> Prevents incomplete object creation
+  #### When to Use
+       -> Strict creation workflow required
+       -> Certain fields are mandatory
+       -> You want compile-time safety
         
 
 
