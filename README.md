@@ -61,7 +61,7 @@ Class should depend on interface rather than concrete class.
 
   ![Factory Method](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/Factory-Method.jpg)
 
-   ### 2. Factory Pattern
+   ### 3. Factory Pattern
 * Abstract Factory is a creational design pattern
 * It provides an interface to create families of related objects
 * The client does not know or care about concrete implementations
@@ -69,6 +69,70 @@ Class should depend on interface rather than concrete class.
 
   ![Abstract Factory](Design_Patterns/src/main/resources/images/creational-design-patterns/factory/Abstract-Factory.jpg)
 
+  ### 1. Builder Pattern
+      * Standard Definiation:
+        Separate the construction of a complex object from its representation, so that the same construction process can create different representations.
+    #### Problem without Builder Pattern
+    ##### 1. Constructor Explosion(telescoping constructors problem)
+         * Every new optional param requires a new constructor overload.
+         * Calls become uncreachable as you pass empty/dummy values for skipped field.
+    ##### 2. Inconsistent Object states
+         * partially build objects may be used before all required data is set.
+    ##### 3. Mutable Objects
+         * Exposing setters means client can change the object any time.
+    ##### 4. Difficulties in validations
+    ##### Why do we need the Builder Pattern?
+         Problems it solves:
+         ❌ Constructors with too many parameters
+         ❌ Confusing parameter order
+         ❌ Poor readability
+         ❌ Hard to extend when new fields are added
+         Benefits:
+         ✅ Readable and fluent object creation
+         ✅ Immutable objects
+         ✅ Better control over object creation
+         ✅ Same construction logic → different outputs
+  ### 1️⃣ Simple Builder (Fluent Builder)
+          A Simple Builder (also called Fluent Builder) is a creational pattern
+          where a single builder class constructs an object step by step using method
+          chaining, and the client directly calls build() to create the final object.
+     #### Key Characteristics
+          * Usually implemented as a static inner class
+          * Uses fluent API (method chaining)
+          * No Director class
+          * All construction logic is inside the Builder
+     #### When to Use
+          * Object has many optional parameters
+          * You want readable object creation
+          * You want immutable objects
+![Simple-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Simple-Builder.jpg)
 
+  ### 2️⃣ Director Builder (Classic GoF Builder)
+          A Director Builder is the classic implementation described by the Gang of Four,
+          where a separate Director class controls the construction process, and different 
+          Concrete Builders create different representations of the product using the same building steps.
+   #### Key Characteristics
+        * Separate Builder interface
+        * Multiple Concrete Builders
+        * A Director orchestrates build steps
+        * Same construction process → different outputs
+   #### When to Use
+        * Construction process must be reusable
+        * Different representations of the same object are needed
+        * Complex creation workflows
+![Director-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Director-Builder.jpg)
+
+ ### 3️⃣ Step Builder
+         A Step Builder is a variation of the Builder pattern that enforces the order of method calls at compile time using multiple interfaces, ensuring that              mandatory fields are set before the object can be built.
+  #### Uses multiple step interfaces
+       -> Enforces mandatory fields
+       -> Provides compile-time safety
+       -> Allows optional fields at the end
+       -> Prevents incomplete object creation
+  #### When to Use
+       -> Strict creation workflow required
+       -> Certain fields are mandatory
+       -> You want compile-time safety
+![Step-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Step-Builder.jpg)
 
 
