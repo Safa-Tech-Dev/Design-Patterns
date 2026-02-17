@@ -135,4 +135,15 @@ Class should depend on interface rather than concrete class.
        -> You want compile-time safety
 ![Step-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Step-Builder.jpg)
 
+ ### 🔷 What is Prototype Design Pattern?
+    The Prototype Pattern is a creational design pattern where new objects are created by copying (cloning) an existing object instead of creating from scratch using new.
+  #### 🔷 Why Do We Need It?
+       Use it when:
+          * Object creation is expensive
+          * Object has many configuration fields
+          * You want to avoid complex constructor logic
+          * You want to create objects at runtime dynamically
+
+![Prototype](Design_Patterns/src/main/resources/images/creational-design-patterns/prototype/Prototype.jpg)
+    
 
