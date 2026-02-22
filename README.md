@@ -135,4 +135,23 @@ Class should depend on interface rather than concrete class.
        -> You want compile-time safety
 ![Step-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Step-Builder.jpg)
 
+ ### 🔷 What is Prototype Design Pattern?
+    The Prototype Pattern is a creational design pattern where new objects are created by copying (cloning) an existing object instead of creating from scratch using new.
+  #### 🔷 Why Do We Need It?
+       Use it when:
+          * Object creation is expensive
+          * Object has many configuration fields
+          * You want to avoid complex constructor logic
+          * You want to create objects at runtime dynamically
+
+![Prototype](Design_Patterns/src/main/resources/images/creational-design-patterns/prototype/Prototype.jpg)
+
+### 🔹 What is Singleton Design Pattern
+        The Singleton Pattern ensures that a class has only one instance and provides a global access point to it.
+#### Why is it important?
+
+✅ Controls resource usage (e.g., DB connection, Logger, Config)
+✅ Prevents unnecessary object creation
+✅ Ensures consistency across the application
+
 
