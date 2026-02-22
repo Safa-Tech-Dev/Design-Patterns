@@ -150,8 +150,17 @@ Class should depend on interface rather than concrete class.
         The Singleton Pattern ensures that a class has only one instance and provides a global access point to it.
 #### Why is it important?
 
-✅ Controls resource usage (e.g., DB connection, Logger, Config)
-✅ Prevents unnecessary object creation
-✅ Ensures consistency across the application
+    ✅ Controls resource usage (e.g., DB connection, Logger, Config)
+    ✅ Prevents unnecessary object creation
+    ✅ Ensures consistency across the application
+
+There are various ways we can implement singleton design pattern
+1. Eager Initialization
+2. Lazy Initialization – NOT Thread Safe
+3. Lazy Initialization –  Double-Checked Locking - Thread Safe
+4. Lazy Initialization – Bill pugh
+5. Enum Singleton
+
+![Singleton](Design_Patterns/src/main/resources/images/creational-design-patterns/singleton/Singleton.jpg)
 
 
