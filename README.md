@@ -145,5 +145,13 @@ Class should depend on interface rather than concrete class.
           * You want to create objects at runtime dynamically
 
 ![Prototype](Design_Patterns/src/main/resources/images/creational-design-patterns/prototype/Prototype.jpg)
-    
+
+### 🔹 What is Singleton Design Pattern
+        The Singleton Pattern ensures that a class has only one instance and provides a global access point to it.
+#### Why is it important?
+
+✅ Controls resource usage (e.g., DB connection, Logger, Config)
+✅ Prevents unnecessary object creation
+✅ Ensures consistency across the application
+
 
