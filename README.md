@@ -71,7 +71,8 @@ Class should depend on interface rather than concrete class.
 
   ### 1. Builder Pattern
       * Standard Definiation:
-        Separate the construction of a complex object from its representation, so that the same construction process can create different representations.
+        Separate the construction of a complex object from its representation,
+        so that the same construction process can create different representations.
     #### Problem without Builder Pattern
     ##### 1. Constructor Explosion(telescoping constructors problem)
          * Every new optional param requires a new constructor overload.
@@ -123,7 +124,9 @@ Class should depend on interface rather than concrete class.
 ![Director-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Director-Builder.jpg)
 
  ### 3️⃣ Step Builder
-         A Step Builder is a variation of the Builder pattern that enforces the order of method calls at compile time using multiple interfaces, ensuring that              mandatory fields are set before the object can be built.
+         A Step Builder is a variation of the Builder pattern that enforces the order of method calls
+         at compile time using multiple interfaces, ensuring that
+         mandatory fields are set before the object can be built.
   #### Uses multiple step interfaces
        -> Enforces mandatory fields
        -> Provides compile-time safety
@@ -136,7 +139,8 @@ Class should depend on interface rather than concrete class.
 ![Step-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Step-Builder.jpg)
 
  ### 🔷 What is Prototype Design Pattern?
-    The Prototype Pattern is a creational design pattern where new objects are created by copying (cloning) an existing object instead of creating from scratch using new.
+    The Prototype Pattern is a creational design pattern where new objects are created by copying (cloning)
+    an existing object instead of creating from scratch using new.
   #### 🔷 Why Do We Need It?
        Use it when:
           * Object creation is expensive
