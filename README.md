@@ -167,4 +167,29 @@ There are various ways we can implement singleton design pattern
 
 ![Singleton](Design_Patterns/src/main/resources/images/creational-design-patterns/singleton/Singleton.jpg)
 
+### Object Pool
+
+
+## Structural Design Patterns
+### Adapter
+### Bridge
+### Composite
+### Decorator
+### Facade
+### Flyweight
+### Proxy
+
+## Behavioral Design Patterns
+### Chain of Responsibility
+### Command
+### Interpreter
+### Mediator
+### Iterator
+### Memento
+### Observer
+### State
+### Strategy
+### Template
+### Visitor
+### Null Object
 
