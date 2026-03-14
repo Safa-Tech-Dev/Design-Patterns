@@ -171,25 +171,25 @@ There are various ways we can implement singleton design pattern
 
 
 ## Structural Design Patterns
-### Adapter
-### Bridge
-### Composite
-### Decorator
-### Facade
-### Flyweight
-### Proxy
+### 1. Adapter
+### 2. Bridge
+### 3. Composite
+### 4. Decorator
+### 5. Facade
+### 6. Flyweight
+### 7. Proxy
 
 ## Behavioral Design Patterns
-### Chain of Responsibility
-### Command
-### Interpreter
-### Mediator
-### Iterator
-### Memento
-### Observer
-### State
-### Strategy
-### Template
-### Visitor
-### Null Object
+### 1. Chain of Responsibility
+### 2. Command
+### 3. Interpreter
+### 4. Mediator
+### 5. Iterator
+### 6. Memento
+### 7. Observer
+### 8. State
+### 9. Strategy
+### 10. Template
+### 11. Visitor
+### 12. Null Object
 
