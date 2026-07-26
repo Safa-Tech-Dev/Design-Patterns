@@ -71,7 +71,8 @@ Class should depend on interface rather than concrete class.
 
   ### 1. Builder Pattern
       * Standard Definiation:
-        Separate the construction of a complex object from its representation, so that the same construction process can create different representations.
+        Separate the construction of a complex object from its representation,
+        so that the same construction process can create different representations.
     #### Problem without Builder Pattern
     ##### 1. Constructor Explosion(telescoping constructors problem)
          * Every new optional param requires a new constructor overload.
@@ -123,7 +124,9 @@ Class should depend on interface rather than concrete class.
 ![Director-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Director-Builder.jpg)
 
  ### 3️⃣ Step Builder
-         A Step Builder is a variation of the Builder pattern that enforces the order of method calls at compile time using multiple interfaces, ensuring that              mandatory fields are set before the object can be built.
+         A Step Builder is a variation of the Builder pattern that enforces the order of method calls
+         at compile time using multiple interfaces, ensuring that
+         mandatory fields are set before the object can be built.
   #### Uses multiple step interfaces
        -> Enforces mandatory fields
        -> Provides compile-time safety
@@ -136,7 +139,8 @@ Class should depend on interface rather than concrete class.
 ![Step-Builder](Design_Patterns/src/main/resources/images/creational-design-patterns/builder/Step-Builder.jpg)
 
  ### 🔷 What is Prototype Design Pattern?
-    The Prototype Pattern is a creational design pattern where new objects are created by copying (cloning) an existing object instead of creating from scratch using new.
+    The Prototype Pattern is a creational design pattern where new objects are created by copying (cloning)
+    an existing object instead of creating from scratch using new.
   #### 🔷 Why Do We Need It?
        Use it when:
           * Object creation is expensive
@@ -150,8 +154,42 @@ Class should depend on interface rather than concrete class.
         The Singleton Pattern ensures that a class has only one instance and provides a global access point to it.
 #### Why is it important?
 
-✅ Controls resource usage (e.g., DB connection, Logger, Config)
-✅ Prevents unnecessary object creation
-✅ Ensures consistency across the application
+    ✅ Controls resource usage (e.g., DB connection, Logger, Config)
+    ✅ Prevents unnecessary object creation
+    ✅ Ensures consistency across the application
 
+There are various ways we can implement singleton design pattern
+1. Eager Initialization
+2. Lazy Initialization – NOT Thread Safe
+3. Lazy Initialization –  Double-Checked Locking - Thread Safe
+4. Lazy Initialization – Bill pugh
+5. Enum Singleton
+
+![Singleton](Design_Patterns/src/main/resources/images/creational-design-patterns/singleton/Singleton.jpg)
+
+### Object Pool
+
+
+## Structural Design Patterns
+### 1. Adapter*
+### 2. Bridge
+### 3. Composite*
+### 4. Decorator*
+### 5. Facade*
+### 6. Flyweight
+### 7. Proxy*
+
+## Behavioral Design Patterns
+### 1. Chain of Responsibility*
+### 2. Command*
+### 3. Interpreter
+### 4. Mediator
+### 5. Iterator*
+### 6. Memento
+### 7. Observer*
+### 8. State*
+### 9. Strategy*
+### 10. Template*
+### 11. Visitor
+### 12. Null Object
 
