@@ -1,7 +1,5 @@
 package behavioural.design.pattern.observer;
 
-import behavioural.design.pattern.StatasticDisplay;
-
 public class Client {
 
     static void main() {

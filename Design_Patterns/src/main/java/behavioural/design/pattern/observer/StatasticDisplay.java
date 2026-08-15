@@ -1,7 +1,4 @@
-package behavioural.design.pattern;
-
-import behavioural.design.pattern.observer.WeatherObserver;
-import behavioural.design.pattern.observer.WeatherSubject;
+package behavioural.design.pattern.observer;
 
 import java.util.ArrayList;
 import java.util.List;
