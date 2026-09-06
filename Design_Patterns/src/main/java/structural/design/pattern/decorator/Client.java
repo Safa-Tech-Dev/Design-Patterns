@@ -12,6 +12,5 @@ public class Client {
         Pizza cheeseOliveMushroom = new CheeseDecorator(new OliveDecorator( new MushroomDecorator(new PlainPizza())));
         System.out.printf("%s | Rs %.2f%n", cheeseOliveMushroom.getDescription(), cheeseOliveMushroom.getCost());
 
-
     }
 }
