@@ -8,7 +8,6 @@ public class LegacyGatewayAdapter implements PaymentProcessor{
     public LegacyGatewayAdapter(LegacyGateway legacyGateway) {
         this.legacyGateway = legacyGateway;
     }
-
     @Override
     public void processPayment(double amount, String currency) {
 
@@ -18,7 +17,6 @@ public class LegacyGatewayAdapter implements PaymentProcessor{
 
 
     }
-
     @Override
     public boolean isPaymentSuccessful() {
         return legacyGateway.checkStatus(currentRef);

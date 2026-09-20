@@ -22,5 +22,4 @@ public class LegacyGateway {
     public long getReferenceNumber(){
         return transactionReference;
     }
-
 }
